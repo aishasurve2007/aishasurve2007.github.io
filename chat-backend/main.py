@@ -64,7 +64,7 @@ def rate_limited(ip: str) -> bool:
 
 class AskIn(BaseModel):
     question: str = Field(..., min_length=1, max_length=300)
-    context: str = Field("", max_length=8000)
+    context: str = Field("", max_length=16000)
 
 
 class AskOut(BaseModel):
