@@ -62,7 +62,8 @@ h1,h2,h3{margin:0;text-wrap:balance;letter-spacing:-.025em}
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:15;background:color-mix(in srgb,var(--bg) 78%,transparent);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:62px}
 .mark{display:flex;align-items:center;gap:.6rem;font-weight:600;text-decoration:none;letter-spacing:-.01em}
-.mark i{width:26px;height:26px;border-radius:7px;display:grid;place-items:center;font-style:normal;font-family:var(--mono);font-size:.72rem;font-weight:500;background:var(--accent);color:var(--accent-ink)}
+.mark img{width:28px;height:28px;border-radius:7px;flex:none;transition:filter .2s,transform .2s}
+.mark:hover img{filter:drop-shadow(0 0 8px var(--accent-glow)) brightness(1.15);transform:translateY(-1px)}
 .top nav{display:flex;gap:.25rem}
 .top nav a{text-decoration:none;color:var(--muted);font-size:.9rem;padding:.4rem .75rem;border-radius:8px;transition:color .2s,background .2s}
 .top nav a:hover,.top nav a.on{color:var(--fg);background:var(--surface-2)}
@@ -304,7 +305,7 @@ footer .wrap{padding-block:1.4rem;display:flex;flex-wrap:wrap;justify-content:sp
 
 <header class="top">
   <div class="wrap">
-    <a class="mark" href="#top"><i>AS</i>Aisha Surve</a>
+    <a class="mark" href="#top"><img src="favicon.svg" width="28" height="28" alt="">Aisha Surve</a>
     <nav aria-label="Sections">
       <a href="#work">Work</a>
       <a href="#evals">Evals</a>
