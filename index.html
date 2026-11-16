@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Aisha Surve</title>
 <meta name="description" content="Aisha Surve, AI and backend engineer in Dubai. RAG systems, tool-calling agents and evaluated ML.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://aishasurve2007.github.io/">
+<meta property="og:title" content="Aisha Surve · AI & backend engineer">
+<meta property="og:description" content="RAG systems, tool-calling agents and evaluated ML. Computer Science with AI at Heriot-Watt University Dubai.">
+<meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -336,10 +341,10 @@ footer .wrap{padding-block:1.4rem;display:flex;flex-wrap:wrap;justify-content:sp
     </section>
 
     <div class="stats" aria-label="Highlights">
-      <div><b>2</b><span>Industry internships</span></div>
       <div><b>90%</b><span>Codebase agent file accuracy</span></div>
-      <div><b>18</b><span>Tests + CI on VisionCut</span></div>
       <div><b>4</b><span>Evaluated AI systems</span></div>
+      <div><b>18</b><span>Tests + CI on VisionCut</span></div>
+      <div><b>2+1</b><span>Internships + research lab role</span></div>
     </div>
 
     <section class="block" id="work" aria-labelledby="work-h">
@@ -347,7 +352,7 @@ footer .wrap{padding-block:1.4rem;display:flex;flex-wrap:wrap;justify-content:sp
         <div><span class="label">Selected work</span><h2 id="work-h">Things I've built</h2></div>
         <p>Hit <span class="mono" style="color:var(--accent)">▶ run</span> on any card to watch the pipeline.</p>
       </div>
-      <div class="notice" role="note"><b></b><p><strong>Live demos are paused.</strong> Automated bots found the public endpoints and started using up my API keys, so I've taken them offline while I add rate limiting. All the code is on GitHub, and I'm happy to give a live walkthrough on a call.</p></div>
+      <div class="notice" role="note"><b></b><p><strong>Live demos are coming back one by one</strong> with bot protection and rate limiting. All the code is on GitHub, and I'm happy to walk through any project on a call.</p></div>
       <div class="bento" id="bento"></div>
     </section>
 
@@ -407,7 +412,7 @@ footer .wrap{padding-block:1.4rem;display:flex;flex-wrap:wrap;justify-content:sp
         <div><span class="label">Stack</span><h2 id="skills-h">What I use</h2></div>
       </div>
       <div class="skills" id="skillList"></div>
-      <div class="edu glow"><b>BSc Computer Science with AI · Heriot-Watt University Dubai</b><span>2025 – 2028 · English, Hindi, Urdu</span></div>
+      <div class="edu glow"><b>BSc Computer Science with AI · Heriot-Watt University Dubai</b><span>Deputy Principal's Award for Excellence in Studies · 2025 – 2028 · English, Hindi, Urdu</span></div>
     </section>
 
     <section class="block" id="ask-sec" aria-labelledby="ask-h">
@@ -512,14 +517,17 @@ var MORE = [
 ];
 
 var EXPERIENCE = [
-  {hash:"a91f3c2", head:true, role:"Data Science Intern", org:"Unified Mentor", when:"May – Aug 2026",
+  {hash:"3f9a0b7", head:true, kind:"research role", role:"Research Collaborator, Computer Vision", org:"HWU Dubai Robotics Lab", when:"Oct 2026 – now",
+   points:["Working on a vision transformer ML pipeline project in the Robotics Lab at Heriot-Watt University Dubai."],
+   stack:[]},
+  {hash:"a91f3c2", role:"Data Science Intern", org:"Unified Mentor", when:"May – Aug 2026",
    points:["Smart-factory analysis on ~100k IoT sensor records with a Random Forest classifier and Streamlit KPI dashboard.","Course-demand and revenue forecasting models for EduPro."],
    stack:["Python","scikit-learn","Streamlit"]},
   {hash:"4be07d1", role:"AI & Web Development Intern", org:"Plugin Live", when:"Nov 2025 – Apr 2026",
    points:["Built an AI interview platform with NLP resume analysis and automated question generation.","Candidate evaluation using speech, answer quality and computer vision, plus a QR attendance system."],
    stack:["Python","Node.js","Angular"]},
-  {hash:"1c0ffee", role:"Started BSc Computer Science with AI", org:"Heriot-Watt University Dubai", when:"2025",
-   points:["Graduating 2028. Certifications: Complete A.I., Machine Learning and Data Science Bootcamp; 100 Days of Code Python Pro."],
+  {hash:"1c0ffee", kind:"education", role:"Started BSc Computer Science with AI", org:"Heriot-Watt University Dubai", when:"2025",
+   points:["Received the Deputy Principal's Award for Excellence in Studies.","Graduating 2028. Certifications: Complete A.I., Machine Learning and Data Science Bootcamp; 100 Days of Code Python Pro."],
    stack:[]}
 ];
 
@@ -529,7 +537,7 @@ var SKILLS = [
   ["Tools",["Python","Java","SQL","Git","GitHub Actions","pytest","Docker","MCP","FFmpeg"]]
 ];
 
-var ABOUT = "Aisha Surve is a BSc Computer Science with Artificial Intelligence student at Heriot-Watt University Dubai (2025 to 2028), based in Dubai. She builds LLM-powered applications: RAG systems, tool-calling agents and AI features served through production backends. She ships complete, tested systems and measures them against baselines. She is looking for AI/ML and backend internships in Dubai and Mumbai. She speaks English, Hindi and Urdu. Certifications: Complete A.I., Machine Learning and Data Science Bootcamp and 100 Days of Code Python Pro Bootcamp (Udemy).";
+var ABOUT = "Aisha Surve is a BSc Computer Science with Artificial Intelligence student at Heriot-Watt University Dubai (2025 to 2028), based in Dubai. She builds LLM-powered applications: RAG systems, tool-calling agents and AI features served through production backends. She ships complete, tested systems and measures them against baselines. She is a research collaborator on a vision transformer project in the HWU Dubai Robotics Lab (since October 2026) and received the Deputy Principal's Award for Excellence in Studies at Heriot-Watt. She is looking for AI/ML and backend internships in Dubai and Mumbai. She speaks English, Hindi and Urdu. Certifications: Complete A.I., Machine Learning and Data Science Bootcamp and 100 Days of Code Python Pro Bootcamp (Udemy).";
 
 var SUGGESTED = ["Has Aisha built an AI agent?","How does she evaluate her RAG systems?","What internships has she done?"];
 /* ======================================== */
@@ -553,7 +561,6 @@ var SUGGESTED = ["Has Aisha built an AI agent?","How does she evaluate her RAG s
   };
   function plink(kind,label,url,paused){
     if(url) return el('a',{class:'plink',href:url,target:'_blank',rel:'noopener',html:ICON[kind]+'<span>'+label+'</span>'});
-    if(paused) return el('span',{class:'plink off',title:'Paused while I add rate limiting',html:ICON[kind]+'<span>'+label+'</span>'});
     return null;
   }
   var bento=document.getElementById('bento');
@@ -751,7 +758,7 @@ var SUGGESTED = ["Has Aisha built an AI agent?","How does she evaluate her RAG s
   /* ---------- Ask my portfolio ---------- */
   var KB=[];
   PROJECTS.forEach(function(p){KB.push({source:p.name,target:'p-'+p.id,text:p.name+'. '+p.short+' '+p.details+' Built with '+p.stack.join(', ')+'.'});});
-  EXPERIENCE.forEach(function(x,i){KB.push({source:x.org,target:'exp-'+i,text:x.role+' at '+x.org+' ('+x.when+', internship experience). '+x.points.join(' ')+' Used '+x.stack.join(', ')+'.'});});
+  EXPERIENCE.forEach(function(x,i){KB.push({source:x.org,target:'exp-'+i,text:x.role+' at '+x.org+' ('+x.when+', '+(x.kind||'internship experience')+'). '+x.points.join(' ')+(x.stack.length?' Used '+x.stack.join(', ')+'.':'')});});
   KB.push({source:'More projects',target:'more',text:'Other projects: '+MORE.map(function(m){return m.name+' ('+m.desc+')'+(m.soon?' - currently building':'');}).join('; ')+'.'});
   KB.push({source:'Skills',target:'skills',text:SKILLS.map(function(g){return g[0]+': '+g[1].join(', ');}).join('. ')+'.'});
   KB.push({source:'About',target:'top',text:ABOUT});
